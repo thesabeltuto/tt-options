@@ -1,7 +1,7 @@
 <?php
 /*
 	Plugin Name: TT-Options
-	Plugin URI: http://wm4d.com
+	Plugin URI: http://ttplugins.wordpress.com/
 	Description: This plugin is a simplified theme options where you can save styles, scripts and other codes to the database without having to edit any files on your theme. Makes your theme updates a worry-free! TT-Options provides users with limited theme options the unlimited possibilities to fully customize their website. 
 	Version: 1.0
 	Author: Thesabel Tuto
