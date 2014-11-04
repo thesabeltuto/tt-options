@@ -5,14 +5,14 @@
 === TT-Options ===
 Contributors: Thesabel Tuto
 Donate link: Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=H228JQZP6269J&lc=PH&item_name=TT%2dPlugins&item_number=tt%2dplugins¤cy_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
-Tags: theme options, options, custom, customize, scripts, style, html, embed, responsive, mobile, support, theme support,
+Tags: theme options, options, custom, customize, scripts, style, html, embed, responsive, mobile, support, theme support, admin
 Requires at least: 3.5.1
 Tested up to: 4.0
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin is a simplified theme options where you can save styles, scripts and other codes to the database without having to edit any files on your theme. Makes your theme updates a worry-free!
+A simplified theme options where you can save styles, scripts and other codes to the database without having to edit any files on your theme. Makes your theme updates a worry-free!
 
 == Description ==
 
@@ -25,10 +25,10 @@ This plugin is a simplified theme options where you can save styles, scripts and
 
 == Frequently asked questions ==
 
-1. Where can I change the settings?
+* Where can I change the settings?
 * A: You can change the settings in the Dashboard -> TT-Options menu.
 
-2. How to make this plugin work?
+* How to make this plugin work?
 * Please refer to Dashboard -> TT-Options > Support for answers.
 
 == Screenshots ==
@@ -36,12 +36,14 @@ This plugin is a simplified theme options where you can save styles, scripts and
 
 
 == Changelog ==
-
+1.0.1 Update on Plugin URL
+1.0.1 Fix on custom option tag for Custom Style and Custom Script
+1.0.1 Update ReadMe
 
 
 == Upgrade notice ==
 
-**NEW!!!** Version 1.0 is Out!!!
+**NEW!!!** Version 1.0.1 is Out!!!
 
 */
 ?>

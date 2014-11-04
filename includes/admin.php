@@ -68,8 +68,8 @@ function TT_OPTIONS_PLUGIN_theme_options_page() {
 			<h3>Custom Codes</h3>
             <div class="tt-options-admin-section tt-options-admin-support">
             	<p>Custom Codes was created for you to be able to customize your website without having to edit the theme files and worry about the theme updates. This section saves your Styles and Scripts to the database. You can easily update your themes and keep your customizations.</p>
-            	<p><strong>Custom Style</strong> is where you enter your custom style in css. No need to add &lt;style&gt; tags. This plugin automatically adds these codes to the header of your website. However should you wish to add the custom option to your theme, you may add it using `wm4d_options_css`.</p>
-                <p><strong>Custom Script</strong> is where you enter your custom script in javascript or jquery. No need to add &lt;script&gt; tags. This plugin automatically adds these codes to the header of your website. However should you wish to add the custom option to your theme, you may add it using `wm4d_options_script`.</p>
+            	<p><strong>Custom Style</strong> is where you enter your custom style in css. No need to add &lt;style&gt; tags. This plugin automatically adds these codes to the header of your website. However should you wish to add the custom option to your theme, you may add it using `tt_options_css`.</p>
+                <p><strong>Custom Script</strong> is where you enter your custom script in javascript or jquery. No need to add &lt;script&gt; tags. This plugin automatically adds these codes to the header of your website. However should you wish to add the custom option to your theme, you may add it using `tt_options_script`.</p>
                 <p><strong>Custom HTML</strong> is where you add generated scripts like google scripts, etc. to be added inside the &lt;head&gt; of your website. This area accepts HTML script and style tags. However should you wish to add the custom option to your theme, you may add it using `tt_options_html`.</p>
             </div>
 
