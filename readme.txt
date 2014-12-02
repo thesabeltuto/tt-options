@@ -32,6 +32,7 @@ This plugin is a simplified theme options where you can save styles, scripts and
 
 
 == Changelog ==
+1.0.2 Fix on custom codes output
 1.0.1 Update on Plugin URL
 1.0.1 Fix on custom option tag for Custom Style and Custom Script
 1.0.1 Update ReadMe
@@ -39,4 +40,4 @@ This plugin is a simplified theme options where you can save styles, scripts and
 
 == Upgrade notice ==
 
-**NEW!!!** Version 1.0.1 is Out!!!
+**NEW!!!** Version 1.0.2 is Out!!!
