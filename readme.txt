@@ -4,7 +4,7 @@ Donate link: Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&b
 Tags: theme options, options, custom, customize, scripts, style, html, embed, responsive, mobile, support, theme support, admin
 Requires at least: 3.5.1
 Tested up to: 4.0
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,6 +32,7 @@ This plugin is a simplified theme options where you can save styles, scripts and
 
 
 == Changelog ==
+1.0.3 updated some integrities
 1.0.2 Fix on custom codes output
 1.0.1 Update on Plugin URL
 1.0.1 Fix on custom option tag for Custom Style and Custom Script
@@ -40,4 +41,4 @@ This plugin is a simplified theme options where you can save styles, scripts and
 
 == Upgrade notice ==
 
-**NEW!!!** Version 1.0.2 is Out!!!
+**NEW!!!** Version 1.0.3 is Out!!!

@@ -30,9 +30,9 @@ function TT_OPTIONS_PLUGIN_theme_options_page() {
 
     <div id="tt-options-admin-nav">
         <ul>
-            <li id="tt-options-admin-li1"><a href="#">Custom Codes</a></li>
-            <li id="tt-options-admin-li2"><a href="#">Support</a></li>
-            <li id="tt-options-admin-li3"><a href="#">About</a></li>
+            <li id="tt-options-admin-li-1"><a href="#">Custom Codes</a></li>
+            <li id="tt-options-admin-li-support"><a href="#">Support</a></li>
+            <li id="tt-options-admin-li-about"><a href="#">About</a></li>
             <li id="donate"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=H228JQZP6269J&lc=PH&item_name=TT%2dPlugins&item_number=tt%2dplugins¤cy_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" target="_blank">Donate</a></li>
        </ul>
     </div>
@@ -63,7 +63,7 @@ function TT_OPTIONS_PLUGIN_theme_options_page() {
 
 		</div>
           
-		<div class="tt-options-admin-content" id="tt-options-admin-li-2">
+		<div class="tt-options-admin-content" id="tt-options-admin-li-support">
 			<h2>Support</h2>
 			<h3>Custom Codes</h3>
             <div class="tt-options-admin-section tt-options-admin-support">
@@ -75,7 +75,7 @@ function TT_OPTIONS_PLUGIN_theme_options_page() {
 
 		</div>
         
-		<div class="tt-options-admin-content" id="tt-options-admin-li-3">
+		<div class="tt-options-admin-content" id="tt-options-admin-li-about">
 			<h2>About</h2>
 			<h3>Description</h3>
             <div class="tt-options-admin-section about">

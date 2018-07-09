@@ -3,7 +3,7 @@
 	Plugin Name: TT-Options
 	Plugin URI: https://wordpress.org/plugins/tt-options/
 	Description: This plugin is a simplified theme options where you can save styles, scripts and other codes to the database without having to edit any files on your theme. Makes your theme updates a worry-free! TT-Options provides users with limited theme options the unlimited possibilities to fully customize their website. 
-	Version: 1.0.2
+	Version: 1.0.3
 	Author: Thesabel Tuto
 	Author URI: http://thesabeltuto.blogspot.com
 	Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=H228JQZP6269J&lc=PH&item_name=TT%2dPlugins&item_number=tt%2dplugins¤cy_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
@@ -31,6 +31,11 @@ define('TT_OPTIONS_PLUGIN_FILE', __FILE__ );
 define('TT_OPTIONS_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('TT_OPTIONS_PLUGIN_URL', plugin_dir_url(__FILE__));
 
+// Global variables
+$TT_OPTIONS_PLUGIN_VERSION = '1.0.3';
+$TT_OPTIONS_PLUGIN_ADMIN_CSS_VERSION = '1.0.3'; // admin style
+$TT_OPTIONS_PLUGIN_ADMIN_JS_VERSION = '1.0.3'; // admin script
+
 // Load Plugin
 add_action('init', 'load_TT_OPTIONS_PLUGIN_scripts');
 
@@ -45,9 +50,12 @@ function load_TT_OPTIONS_PLUGIN_scripts_out() {
 }
 
 function load_TT_OPTIONS_PLUGIN_scripts_in() {
-    wp_enqueue_script('tt-options-admin.js', TT_OPTIONS_PLUGIN_URL.'/js/admin.js');	
-	wp_enqueue_style('tt-options-admin.css',  TT_OPTIONS_PLUGIN_URL.'/css/admin.css');
-
+	wp_register_script('tt-options-admin.js', TT_OPTIONS_PLUGIN_URL.'js/admin.js', '', $GLOBALS['TT_OPTIONS_PLUGIN_ADMIN_JS_VERSION'], false);	
+	wp_register_style('tt-options-admin.css',  TT_OPTIONS_PLUGIN_URL.'css/admin.css', '', $GLOBALS['TT_OPTIONS_PLUGIN_ADMIN_CSS_VERSION'], '');
+	
+    wp_enqueue_script('tt-options-admin.js' );	
+	wp_enqueue_style('tt-options-admin.css');
+	
 	require(TT_OPTIONS_PLUGIN_DIR.'/includes/admin.php');
 }
 
