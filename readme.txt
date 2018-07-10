@@ -4,7 +4,7 @@ Tags: theme options, options, custom, customize, scripts, style, html, embed, re
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=H228JQZP6269J&lc=PH&item_name=TTPlugins&item_number=ttplugins¤cy_code=USD&bn=PPDonationsBFbtn_donateCC_LGgifNonHosted
 Requires at least: 3.5.1
 Tested up to: 4.9.7
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +29,7 @@ A: Please refer to Dashboard -> TT-Options > Support for answers.
 1. TT-Options Dashboard
 
 == Changelog ==
+1.0.6 updated some settings
 1.0.5 updated some settings
 1.0.4 updated some settings
 1.0.3 updated some settings
@@ -39,4 +40,4 @@ A: Please refer to Dashboard -> TT-Options > Support for answers.
 
 
 == Upgrade Notice ==
-**NEW!!!** Version 1.0.5 is Out!!!
+**NEW!!!** Version 1.0.6 is Out!!!
