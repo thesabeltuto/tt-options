@@ -1,7 +1,7 @@
 ﻿=== TT-Options ===
 Contributors: Thesabel Tuto
 Tags: theme options, options, custom, customize, scripts, style, html, embed, responsive, mobile, support, theme support, admin
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=H228JQZP6269J&lc=PH&item_name=TTPlugins&item_number=ttplugins¤cy_code=USD&bn=PPDonationsBFbtn_donateCC_LGgifNonHosted
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=H228JQZP6269J&lc=US&item_name=TT%2dPlugins%3a%20Support%20WordPress%20Plugin%20Development&item_number=TT%2dPlugins&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 Requires at least: 3.5.1
 Tested up to: 4.9.7
 Stable tag: 1.0.6
