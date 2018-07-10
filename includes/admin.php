@@ -26,13 +26,13 @@ function TT_OPTIONS_PLUGIN_theme_options_page() {
 
 	?>
 	<div class="tt-options-admin-wrap">
-	<h1>TT Options</h1>
+	<h1>TT Options <span>Version <?=$GLOBALS['TT_OPTIONS_PLUGIN_VERSION']?></span></h1>
 
     <div id="tt-options-admin-nav">
         <ul>
-            <li id="tt-options-admin-li1"><a href="#">Custom Codes</a></li>
-            <li id="tt-options-admin-li2"><a href="#">Support</a></li>
-            <li id="tt-options-admin-li3"><a href="#">About</a></li>
+            <li id="tt-options-admin-li-1"><a href="#">Custom Codes</a></li>
+            <li id="tt-options-admin-li-support"><a href="#">Support</a></li>
+            <li id="tt-options-admin-li-about"><a href="#">About</a></li>
             <li id="donate"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=H228JQZP6269J&lc=PH&item_name=TT%2dPlugins&item_number=tt%2dplugins¤cy_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" target="_blank">Donate</a></li>
        </ul>
     </div>
@@ -63,7 +63,7 @@ function TT_OPTIONS_PLUGIN_theme_options_page() {
 
 		</div>
           
-		<div class="tt-options-admin-content" id="tt-options-admin-li-2">
+		<div class="tt-options-admin-content" id="tt-options-admin-li-support">
 			<h2>Support</h2>
 			<h3>Custom Codes</h3>
             <div class="tt-options-admin-section tt-options-admin-support">
@@ -75,11 +75,16 @@ function TT_OPTIONS_PLUGIN_theme_options_page() {
 
 		</div>
         
-		<div class="tt-options-admin-content" id="tt-options-admin-li-3">
+		<div class="tt-options-admin-content" id="tt-options-admin-li-about">
 			<h2>About</h2>
 			<h3>Description</h3>
             <div class="tt-options-admin-section about">
             	<p>This plugin is a simplified theme options where you can save styles, scripts and other codes to the database without having to edit any files on your theme. Makes your theme updates a worry-free! TT-Options is a plugin that provides users with limited theme options the unlimited possibilities to fully customize their website.</p>
+            </div>
+
+            <h3>Plugin Version</h3>
+            <div class="tt-options-admin-section about">
+                <p>Version: <?=$GLOBALS['TT_OPTIONS_PLUGIN_VERSION'];?></p>
             </div>
             
             <h3>Author</h3>

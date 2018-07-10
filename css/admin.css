@@ -4,6 +4,7 @@
 /** GENERAL **/
 
 .tt-options-admin-wrap h1 { background: #2ea2cc; padding: 15px; margin: 10px 0; color: #fff; text-shadow: 1px 1px 1px #1D4E61; border-bottom: 8px solid #1E8DBB;}
+.tt-options-admin-wrap h1 span { font-size: medium; text-align: right; float: right; }
 
 .tt-options-admin-wrap a, .tt-options-admin-wrap a:visited, .tt-options-admin-wrap a:active { color: #0074a2; }
 .tt-options-admin-wrap a:hover { color: #2ea2cc; }
