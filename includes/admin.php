@@ -26,7 +26,7 @@ function TT_OPTIONS_PLUGIN_theme_options_page() {
 
 	?>
 	<div class="tt-options-admin-wrap">
-	<h1>TT Options</h1>
+	<h1>TT Options <span>Version <?=$GLOBALS['TT_OPTIONS_PLUGIN_VERSION']?></span></h1>
 
     <div id="tt-options-admin-nav">
         <ul>
@@ -80,6 +80,11 @@ function TT_OPTIONS_PLUGIN_theme_options_page() {
 			<h3>Description</h3>
             <div class="tt-options-admin-section about">
             	<p>This plugin is a simplified theme options where you can save styles, scripts and other codes to the database without having to edit any files on your theme. Makes your theme updates a worry-free! TT-Options is a plugin that provides users with limited theme options the unlimited possibilities to fully customize their website.</p>
+            </div>
+
+            <h3>Plugin Version</h3>
+            <div class="tt-options-admin-section about">
+                <p>Version: <?=$GLOBALS['TT_OPTIONS_PLUGIN_VERSION'];?></p>
             </div>
             
             <h3>Author</h3>
